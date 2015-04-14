@@ -2,7 +2,6 @@
 
 package util
 
-import processing.core.PApplet
 import javax.swing.WindowConstants
 
 object Sketch {

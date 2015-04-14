@@ -6,7 +6,7 @@ trait FixedSizePApplet extends PApplet {
 
   val fixedHeight: Int
   val fixedWidth: Int
-  val title: String = "FixedSizePApplet"
+  val title: String = this.getClass.getName
 
   override def setup(): Unit = {
     size(fixedWidth, fixedHeight)
@@ -19,4 +19,6 @@ trait FixedSizePApplet extends PApplet {
   def main(args: Array[String]): Unit = {
     display()
   }
+
+  def map = PApplet.map _
 }

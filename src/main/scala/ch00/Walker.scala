@@ -1,9 +1,8 @@
 package ch00
 
-import processing.core.PApplet
-import util.FixedSizePApplet
 import util.Sketch
 import scala.util.Random
+import util.FixedSizePApplet
 
 class Walker {
   import WalkerSketch._
@@ -30,7 +29,6 @@ object WalkerSketch extends FixedSizePApplet {
 
   override val fixedWidth = 640
   override val fixedHeight = 360
-  override val title = "WalkerSketch"
 
   var w: Walker = _
 

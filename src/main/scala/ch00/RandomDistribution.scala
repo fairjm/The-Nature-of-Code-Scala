@@ -1,12 +1,12 @@
 package ch00
 
 import util.FixedSizePApplet
+import processing.core.PApplet
 
 object RandomDistribution extends FixedSizePApplet {
 
   override val fixedWidth = 640
   override val fixedHeight = 240
-  override val title = "RandomDistribution"
 
   var randomCounts: Array[Float] = _
 
