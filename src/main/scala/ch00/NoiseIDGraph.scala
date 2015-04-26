@@ -29,6 +29,6 @@ object NoiseIDGraph extends FixedSizePApplet {
     }
     lastXPoint = xPoint
     lastYPoint = yPoint
-    time += 0.001
+    time += 0.01
   }
 }
